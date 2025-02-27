@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </title>
+    <body>
+        <form>
+            <p>
+                <label for="name"></label>Enter Name</label>
+                <input type="text" id="name" name="name" placeholder="Enter name">
+            </p>
+            <p>
+                <label for="email"> Enter Email</label>
+                <input type="email" id="email" name="email" placeholder="enter email">
+            </p>
+            <p>
+                <label for="phone">Enter phone number</label>
+                <input type="number" id="phone" name="phone" placeholder="enter phone number">
+            </p>
+            <p>
+                <label for="age">Enter age</label>
+                <input type="text" id="age" name="age" placeholder="enter age">
+            </p>
+            <p>
+                <label>enter gender</label>
+                <div class="gender-options">
+                    <div>
+                      <input type="radio" id="male" name="gender" value="male">
+                      <label for="male">Male</label>
+                    </div>
+                    <div>
+                      <input type="radio" id="female" name="gender" value="female">
+                      <label for="female">Female</label>
+                    </div>
+                    <div>
+                      <input type="radio" id="other" name="gender" value="other">
+                      <label for="other">Other</label>
+                    </div>
+                  </div>
+            </p>
+            <p>
+                <label for="feedback">Feedback:</label><br>
+                <textarea id="feedback" name="feedback" rows="4" required></textarea>
+            </p>
+            <p>
+                <input type="submit" value="Submit">
+            </p>
+        </form>
+    </body>
+</html>
